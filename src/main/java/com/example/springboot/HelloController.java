@@ -17,7 +17,7 @@ public class HelloController {
 
 	@GetMapping("service2/app2")
 	public String index() {
-		return "This is a application 2!";
+		return "This is a application2!";
 	}
 	@GetMapping("service2/getcurrentime")
 	public String getCurrentTime() {
